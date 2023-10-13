@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Passion+One&family=Sriracha&display=swap');
+
+
+:root {
+    --font-padrão: 'passion one';
+
+}
+
+html, body {
+    margin: 0;
+    font-family: var(--font-padrão);
+    color: rgb(56, 55, 55);
+    
+
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: darkslategrey;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    
+    width: 15%;
+    background-color: #01b8c6   ;
+    padding: 80px 10px 0px;
+    font-variant: small-caps;
+ 
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+a {
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.content {
+    background-color: white;
+    min-height: 500px;
+    padding: 20px;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row{
+    margin: 5px;
+}
+
+.Contato01 {
+    display: flex;   
+}
+
+.Contato01 > div{
+    padding-right: 15%;
+}
+
+.Contato02{
+    padding-left: 15%;
+}
+
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+.footer {
+    padding-top: 20px;
+    padding-left: 15px;
+    
+    color: white;
+    background-color: darkslategrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: content-box;
+    display: flex;
+
+    min-height: 100px;  
+}
+
+.footer > div{
+    padding-right: 5%;
+}
+
